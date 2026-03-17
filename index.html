@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>大铁API - 使用文档</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" id="theme-link">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     .qq-btn {
       display: inline-block;
@@ -33,7 +33,31 @@
       align-items: center;
       justify-content: center;
     }
-    html[data-theme="dark"] .theme-toggle { border-color: #555; }
+    html.dark-mode .theme-toggle { border-color: #555; }
+    html.dark-mode body { background-color: #1e1e1e; color: #ccc; }
+    html.dark-mode .sidebar { background-color: #252526; color: #ccc; }
+    html.dark-mode .sidebar ul li a { color: #ccc; }
+    html.dark-mode .sidebar ul li a:hover { color: #42b983; }
+    html.dark-mode .sidebar ul li.active > a { color: #42b983; }
+    html.dark-mode .markdown-section { color: #ccc; }
+    html.dark-mode .markdown-section h1,
+    html.dark-mode .markdown-section h2,
+    html.dark-mode .markdown-section h3,
+    html.dark-mode .markdown-section h4 { color: #e0e0e0; }
+    html.dark-mode .markdown-section a { color: #42b983; }
+    html.dark-mode .markdown-section code { background-color: #2d2d2d; color: #e06c75; }
+    html.dark-mode .markdown-section pre { background-color: #2d2d2d !important; }
+    html.dark-mode .markdown-section pre code { color: #abb2bf; }
+    html.dark-mode .markdown-section blockquote { border-left-color: #42b983; color: #999; }
+    html.dark-mode .markdown-section table tr:nth-child(2n) { background-color: #2a2a2a; }
+    html.dark-mode .markdown-section table tr { background-color: #1e1e1e; }
+    html.dark-mode .markdown-section table th,
+    html.dark-mode .markdown-section table td { border-color: #444; }
+    html.dark-mode .search input { background-color: #2d2d2d; color: #ccc; border-color: #444; }
+    html.dark-mode .search .results-panel { background-color: #252526; }
+    html.dark-mode .search .matching-post { border-bottom-color: #444; }
+    html.dark-mode .app-nav { background-color: #1e1e1e; }
+    html.dark-mode .content { background-color: #1e1e1e; }
   </style>
 </head>
 <body>
@@ -42,16 +66,13 @@
   <script>
     function toggleTheme() {
       var html = document.documentElement;
-      var link = document.getElementById('theme-link');
       var btn = document.querySelector('.theme-toggle');
-      if (html.getAttribute('data-theme') === 'dark') {
-        html.removeAttribute('data-theme');
-        link.href = 'https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css';
+      if (html.classList.contains('dark-mode')) {
+        html.classList.remove('dark-mode');
         btn.textContent = '🌙';
         localStorage.setItem('theme', 'light');
       } else {
-        html.setAttribute('data-theme', 'dark');
-        link.href = 'https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-dark.min.css';
+        html.classList.add('dark-mode');
         btn.textContent = '☀️';
         localStorage.setItem('theme', 'dark');
       }
@@ -59,8 +80,7 @@
     (function() {
       var saved = localStorage.getItem('theme');
       if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        document.getElementById('theme-link').href = 'https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-dark.min.css';
+        document.documentElement.classList.add('dark-mode');
         document.querySelector('.theme-toggle').textContent = '☀️';
       }
     })();
