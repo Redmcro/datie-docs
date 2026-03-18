@@ -2,38 +2,25 @@
 
 > ⚠️ 注意：随时跑路，随时跑路，随时跑路，能用且用~
 
-<details class="faq-item" open>
-<summary>为什么要开站？</summary>
+## Q: 为什么要开站？
 
 相当于大家合租AI 一起踩..
 
-</details>
-
-<details class="faq-item" open>
-<summary>支持哪些模型？</summary>
+## Q: 支持哪些模型？
 
 前往 [模型广场](find-model.md) 查看，有的就有，没得就没...
 
-</details>
-
-<details class="faq-item" open>
-<summary>有缓存吗？</summary>
+## Q: 有缓存吗？
 
 有缓存的模型，卡片上会标注 **缓存** 标签。
 
-</details>
-
-<details class="faq-item" open>
-<summary>如何充值？</summary>
+## Q: 如何充值？
 
 在 **钱包管理** 页面充值。
 
 > 💡 建议不要一次充值超过 5 元，冲一点踩一点~
 
-</details>
-
-<details class="faq-item" open>
-<summary>🐱🐱币是什么意思？</summary>
+## Q: 🐱🐱币是什么意思？
 
 | 换算 | 说明 |
 |------|------|
@@ -41,10 +28,7 @@
 
 和官方一样按 Token 消耗扣费，分组倍率永远不会大于 1，夜间人少会适度降低倍率。
 
-</details>
-
-<details class="faq-item" open>
-<summary>能退款吗？</summary>
+## Q: 能退款吗？
 
 不要充超过 5 元。要是不小心充太多又倒闭了，可以尝试进群大叫..
 
