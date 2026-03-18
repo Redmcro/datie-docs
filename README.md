@@ -6,7 +6,6 @@
 ## 快速导航
 
 - [快速开始](quickstart.md) - 5分钟上手
-- [获取API Key](api-key.md) - 如何获取密钥
 - [常见问题](faq.md) - FAQ
 
 ---
