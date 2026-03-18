@@ -4,13 +4,42 @@
   <meta charset="UTF-8">
   <title>大铁API - 使用文档</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/style.min.css">
+  <!-- 使用 docsify-themeable 的纯净暗色主题 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <style>
+    /* 全局自定义变量，打造简洁现代的暗色风格 */
     :root {
-      --docsifytabs-border-color: #ededed;
-      --docsifytabs-tab-highlight-color: #42b983;
+      /* 主题色：优雅的绿色 */
+      --theme-color: #42b983;
+      
+      /* 背景色体系 */
+      --base-background-color: #1a1a1a;
+      --sidebar-background: #141414;
+      
+      /* 字体排版 */
+      --base-font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --base-font-size: 16px;
+      --base-line-height: 1.7;
+      
+      /* 侧边栏样式优化 */
+      --sidebar-name-color: var(--theme-color);
+      --sidebar-nav-link-color: #a0a0a0;
+      --sidebar-nav-link-color--active: var(--theme-color);
+      --sidebar-nav-link-font-weight--active: 600;
+      --sidebar-border-color: transparent; /* 去除侧边栏边框，更加扁平化 */
+      
+      /* 代码块样式优化 */
+      --code-theme-background: #242424;
+      --code-font-family: "Fira Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+      
+      /* 搜索框样式优化 */
+      --search-input-background-color: #242424;
+      --search-input-border-color: #333;
+      --search-input-color: #eee;
+      --search-input-focus-border-color: var(--theme-color);
     }
+
+    /* QQ 按钮美化：增加立体感和悬浮动画 */
     .qq-btn {
       display: inline-block;
       padding: 8px 20px;
@@ -20,64 +49,61 @@
       text-decoration: none;
       font-weight: bold;
       margin: 10px 0;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(18, 183, 245, 0.2);
     }
-    .qq-btn:hover { background: #0ea1d9; }
+    .qq-btn:hover { 
+      background: #0ea1d9; 
+      transform: translateY(-1px);
+      box-shadow: 0 6px 12px rgba(18, 183, 245, 0.3);
+    }
 
-    /* dark mode fixes */
-    body.dark .search input {
-      background: #2d2d2d !important;
-      color: #b4b4b4 !important;
-      border-color: #444 !important;
-      box-shadow: none !important;
+    /* 滚动条美化 */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
     }
-    body.dark .search .input-wrap {
-      background: #2d2d2d !important;
-      box-shadow: none !important;
+    ::-webkit-scrollbar-thumb {
+      background: #444;
+      border-radius: 4px;
     }
-    body.dark .sidebar-toggle {
-      background-color: transparent !important;
+    ::-webkit-scrollbar-thumb:hover {
+      background: #666;
     }
-    body.dark .sidebar-toggle span {
-      background-color: #b4b4b4 !important;
-    }
-    body.dark .search .results-panel {
-      background: #1e1e1e !important;
-    }
-    body.dark .search .matching-post {
-      border-bottom-color: #444 !important;
+    ::-webkit-scrollbar-track {
+      background: transparent;
     }
   </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">文档加载中...</div>
   <script>
     window.$docsify = {
       name: '大铁API',
       repo: '',
       loadSidebar: true,
       subMaxLevel: 3,
+      auto2top: true,
       search: {
         placeholder: '搜索文档',
         noData: '没有找到结果',
+        depth: 3
       },
-      auto2top: true,
-      darklightTheme: {
-        defaultTheme: 'dark',
-        siteFont: 'Source Sans Pro, Helvetica Neue, Arial, sans-serif',
-        dark: {
-          accent: '#42b983',
-          background: '#1e1e1e',
-          textColor: '#b4b4b4',
-          codeBackground: '#2d2d2d',
-        },
-        light: {
-          accent: '#42b983',
-        }
+      // 增加复制到剪贴板插件配置，对 API 文档非常友好
+      copyCode: {
+        buttonText: '复制',
+        errorText: '错误',
+        successText: '已复制'
       }
     }
   </script>
+  <!-- Docsify 核心 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- 搜索插件 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/index.min.js"></script>
+  <!-- Docsify Themeable 布局增强脚本 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <!-- 代码一键复制插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>
