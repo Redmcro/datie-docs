@@ -2,36 +2,45 @@
 
 ## 1. 注册账号
 
-访问 [ai.datie.lol](https://ai.datie.lol) 注册账号
+<a class="register-btn" href="https://ai.datie.lol" target="_blank">👉 点击前往 ai.datie.lol 注册账号</a>
 
-邮箱是必须的, 多多包容🐱~
+邮箱是必须的，多多包容🐱~
 
 ## 2. 兑换咸鱼Key
 
-登录后在 钱包管理 位置粘贴咸鱼发的key兑换
+登录后点击左侧 **钱包管理**，在兑换码充值处粘贴咸鱼发的 key 兑换：
 
-![兑换Key](/images/use_key.png)
+<img src="/images/use_key.png" alt="兑换Key" class="doc-img" />
 
-## 3. 创建API-KEY
+## 3. 创建 API Key
 
-1.点击左侧令牌管理
+**第1步：** 点击左侧 **令牌管理**，然后点击 **添加令牌**
 
-![令牌管理](/images/create_key_002.png)
+<img src="/images/create_key_002.png" alt="令牌管理" class="doc-img-sm" />
 
-2.添加令牌
+**第2步：** 随意填个名称，其他配置默认即可，点击 **提交**
 
-3.随意名称-提交(其他配置随意)
+<img src="/images/create_key_003.png" alt="创建令牌" class="doc-img-md" />
 
-![创建令牌](/images/create_key_003.png)
+**第3步：** 点击复制你的 Key
 
-4.点击这里复制你的key
-> ⚠️ 请妥善保管你的API Key，不要泄露给他人。
+<img src="/images/create_key_004.png" alt="复制Key" class="doc-img" />
 
-5.基本配置全部拿到
-baseurl: https://ai.datie.lol
-key:  你刚刚复制的key
+> ⚠️ 请妥善保管你的 API Key，不要泄露给他人。
 
-6.客户端使用看下一篇:
+## 4. 拿到配置，开始使用
+
+你现在已经拿到了所有需要的信息：
+
+| 配置项 | 值 |
+|-------|---|
+| Base URL | `https://ai.datie.lol` |
+| API Key | 你刚刚复制的 Key |
+
+接下来选择你的客户端进行配置：
+- [Droid 配置](config-droid.md)
+- [Claude Code 配置](config-claude.md)
+- [Codex 配置](config-codex.md)
 
 ---
 
