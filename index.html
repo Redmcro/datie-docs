@@ -41,34 +41,20 @@
       --search-input-focus-border-color: var(--theme-color);
     }
 
-    /* QQ 按钮美化：增加立体感和悬浮动画 */
+    /* QQ 加群徽章 */
     .qq-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 20px;
-      background: #12B7F5;
-      color: #fff !important;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 10px 0;
-      transition: all 0.2s ease;
-      box-shadow: 0 4px 6px rgba(18, 183, 245, 0.2);
-    }
-
-    .qq-btn::before {
-      content: "";
       display: inline-block;
-      width: 20px;
-      height: 20px;
-      background: url("https://pub.idqqimg.com/wpa/images/group.png") no-repeat center / contain;
+      margin: 10px 0;
+      transition: opacity 0.2s ease;
     }
 
     .qq-btn:hover {
-      background: #0ea1d9;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 12px rgba(18, 183, 245, 0.3);
+      opacity: 0.85;
+    }
+
+    .qq-btn img {
+      height: 30px;
+      vertical-align: middle;
     }
 
     /* 注册按钮：大号醒目 */

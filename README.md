@@ -11,4 +11,4 @@
 
 ---
 
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">📢 加入QQ交流群</a>
+<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank"><img src="https://pub.idqqimg.com/wpa/images/group.png" alt="加入QQ交流群"></a>
