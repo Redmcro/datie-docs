@@ -20,4 +20,4 @@ https://ai.datie.lol
 
 ---
 
-<a class=\ qq-btn\ href=\https://qm.qq.com/q/你的QQ群号\ target=\_blank\>遇到问题？加入QQ群</a>
+<a class=\ qq-btn\ href=\https://qm.qq.com/q/1051147956\ target=\_blank\>遇到问题？加入QQ群</a>
