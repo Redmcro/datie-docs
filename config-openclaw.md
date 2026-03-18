@@ -27,6 +27,8 @@
 >
 > 改完运行 `openclaw gateway restart`。
 
+
+> ⚠️ 不一定叫datie, 随意起一个就行🐱~
 ---
 
 ## 一b. 让龙虾学会画图（复制发给他）
