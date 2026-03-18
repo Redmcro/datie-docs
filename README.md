@@ -9,5 +9,8 @@
 - [常见问题](faq.md) - FAQ
 
 ---
+<a class="register-btn" href="https://ai.datie.lol" target="_blank">👉 点击前往 ai.datie.lol 注册账号</a>
+
+---
 
 <a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 加入QQ交流群</a>
