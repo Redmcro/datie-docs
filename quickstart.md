@@ -4,7 +4,7 @@
 
 访问 [ai.datie.lol](https://ai.datie.lol) 注册账号。
 
-## 2. 获取API Key
+## 2. 兑换Key
 
 登录后在个人中心创建API Key。
 
