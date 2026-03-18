@@ -30,8 +30,8 @@
 
 ## Q: 能退款吗？
 
-不要充超过 5 元。要是不小心充太多又倒闭了，可以进群大叫。
+不要充超过 5 元。要是不小心充太多又倒闭了，可以尝试进群大叫..
 
 ---
 
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank"><img src="https://pub.idqqimg.com/wpa/images/group.png" alt="加入QQ群"></a>
+<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 还有问题？加入QQ群</a>
