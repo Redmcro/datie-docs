@@ -25,6 +25,7 @@
 ![创建令牌](/images/create_key_003.png)
 
 4.点击这里复制你的key
+> ⚠️ 请妥善保管你的API Key，不要泄露给他人。
 
 5.基本配置全部拿到
 baseurl: https://ai.datie.lol
