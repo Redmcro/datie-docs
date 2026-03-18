@@ -11,4 +11,4 @@
 
 ---
 
-<a class="qq-btn" href="https://qm.qq.com/q/1051147956" target="_blank">📢 加入QQ交流群</a>
+<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">📢 加入QQ交流群</a>

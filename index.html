@@ -43,7 +43,9 @@
 
     /* QQ 按钮美化：增加立体感和悬浮动画 */
     .qq-btn {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       padding: 8px 20px;
       background: #12B7F5;
       color: #fff !important;
@@ -53,6 +55,14 @@
       margin: 10px 0;
       transition: all 0.2s ease;
       box-shadow: 0 4px 6px rgba(18, 183, 245, 0.2);
+    }
+
+    .qq-btn::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: url("https://pub.idqqimg.com/wpa/images/group.png") no-repeat center / contain;
     }
 
     .qq-btn:hover {
