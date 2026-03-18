@@ -48,7 +48,7 @@ source ~/.zshrc
 
 ### 添加配置
 
-在 `config.json` 中添加以下内容：
+在 `config.json` 中添加以下内容, 注意8192是有必要的：
 
 ```json
 {
