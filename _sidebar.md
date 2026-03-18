@@ -2,7 +2,8 @@
 - [加入交流群](qq.md)
 
 - 快速开始
-  - [获取 API Key](quickstart.md)
+  - [快速开始](quickstart.md)
+  - [获取 API Key](api-key.md)
   - [常见问题 FAQ](faq.md)
 
 - 客户端配置指南

@@ -2,22 +2,36 @@
 
 ## 1. 注册账号
 
-访问 [ai.datie.lol](https://ai.datie.lol) 注册账号。
+访问 [ai.datie.lol](https://ai.datie.lol) 注册账号
 
-## 2. 兑换Key
+邮箱是必须的, 多多包容🐱~
 
-登录后在个人中心创建API Key。
+## 2. 兑换咸鱼Key
 
-## 3. 使用API
+登录后在 钱包管理 位置粘贴咸鱼发的key兑换
 
-将API Key配置到你的客户端，Base URL设置为：
+![兑换Key](/images/use_key.png)
 
-\\\
-https://ai.datie.lol
-\\\
+## 3. 创建API-KEY
 
-就可以开始使用了！
+1.点击左侧令牌管理
+
+![令牌管理](/images/create_key_002.png)
+
+2.添加令牌
+
+3.随意名称-提交(其他配置随意)
+
+![创建令牌](/images/create_key_003.png)
+
+4.点击这里复制你的key
+
+5.基本配置全部拿到
+baseurl: https://ai.datie.lol
+key:  你刚刚复制的key
+
+6.客户端使用看下一篇:
 
 ---
 
-<a class=\ qq-btn\ href=\https://qm.qq.com/q/1051147956\ target=\_blank\>遇到问题？加入QQ群</a>
+<a class="qq-btn" href="https://qm.qq.com/q/1051147956" target="_blank">遇到问题？加入QQ群</a>
