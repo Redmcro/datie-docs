@@ -65,6 +65,27 @@ source ~/.zshrc
 }
 ```
 
+#### 其他模型
+
+```json
+    {
+      "model_display_name": "Gpt 5.4",
+      "model": "gpt-5.4",
+      "base_url": "https://ai.datie.lol",
+      "api_key": "你自己创建的密钥~",
+      "provider": "open-ai",
+      "max_tokens": 8192
+    },
+    {
+      "model_display_name": "Gemini 3.1",
+      "model": "gemini-3.1-pro-high",
+      "base_url": "https://ai.datie.lol",
+      "api_key": "你自己创建的密钥~",
+      "provider": "open-ai",
+      "max_tokens": 8192
+    },
+```
+
 ## 第四步：启动 Droid
 
 ```bash
