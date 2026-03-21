@@ -102,6 +102,8 @@ source ~/.zshrc
     },
 ```
 
+> 💡 注意 'model' 必须和模型广场名称完全一致
+
 ## 第四步：启动 Droid
 
 ```bash
