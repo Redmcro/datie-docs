@@ -40,6 +40,7 @@
 接下来选择你的客户端进行配置：
 - [Droid 配置](config-droid.md)
 - [Claude Code 配置](config-claude.md)
+- [Codex 配置](config-codex.md)
 - [OpenClaw 配置](config-openclaw.md)
 
 ---
