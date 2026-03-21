@@ -69,8 +69,24 @@ source ~/.zshrc
 
 ```json
     {
+      "model_display_name": "Sonnet 4.6",
+      "model": "claude-sonnet-4-6",
+      "base_url": "https://ai.datie.lol",
+      "api_key": "你自己创建的密钥~",
+      "provider": "anthropic",
+      "max_tokens": 8192
+    }
+    {
       "model_display_name": "Gpt 5.4",
       "model": "gpt-5.4",
+      "base_url": "https://ai.datie.lol",
+      "api_key": "你自己创建的密钥~",
+      "provider": "open-ai",
+      "max_tokens": 8192
+    },
+    {
+      "model_display_name": "Gpt 5.3-Codex",
+      "model": "gpt-5.3-codex",
       "base_url": "https://ai.datie.lol",
       "api_key": "你自己创建的密钥~",
       "provider": "open-ai",
