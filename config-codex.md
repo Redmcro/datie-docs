@@ -68,9 +68,6 @@ cp ~/.codex/config.toml.official ~/.codex/config.toml
 
 ## 常见问题
 
-**Q：为什么 token 有时候没缓存？**  
-→ 会话时间太久后，远端可能会清理旧 token，需要重新创建。建议任务尽量及时完成，多开新对话，尽量在几个问题内完成一个任务。
-
 **Q：报 401 / unauthorized？**  
 → Key 错了、过期了，或者没设置环境变量。
 
