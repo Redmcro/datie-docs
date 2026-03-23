@@ -55,7 +55,7 @@ source ~/.zshrc
   "custom_models": [
     {
       "model_display_name": "Opus 4.6",
-      "model": "claude-opus-4-6-thinking",
+      "model": "claude-opus-4-6",
       "base_url": "https://ai.datie.lol",
       "api_key": "你自己创建的密钥~",
       "provider": "anthropic",

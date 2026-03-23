@@ -33,7 +33,7 @@ npm install -g @anthropic-ai/claude-code
   "permissions": {
     "allow": [],
     "deny": [],
-    "model": "claude-opus-4-6-thinking",
+    "model": "claude-opus-4-6",
     "effortLevel": "high"
   }
 }

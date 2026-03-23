@@ -56,7 +56,7 @@ source ~/.bashrc  # 或 source ~/.zshrc
 编辑 `config.toml`，示例：
 
 ```toml
-model = "claude-opus-4-6-thinking"
+model = "claude-opus-4-6"
 model_provider = "datie"
 personality = "pragmatic"
 
