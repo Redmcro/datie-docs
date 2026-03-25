@@ -1,5 +1,10 @@
 # Codex 配置指南
 
+> 🚨 **重要提醒：Codex 请勿使用 Claude 模型！**
+>
+> Codex 只支持 OpenAI 协议，即使通过中转站，发出的请求格式也是 OpenAI 格式。
+> **请使用 GPT 系列模型**（如 `gpt-5.3-codex`），不要填写 `claude-*` 系列模型名。 钱多也不建议
+
 ## 第一步：找到配置文件
 
 | 系统 | 配置文件路径 |
@@ -56,7 +61,7 @@ source ~/.bashrc  # 或 source ~/.zshrc
 编辑 `config.toml`，示例：
 
 ```toml
-model = "claude-opus-4-6"
+model = "gpt-5.3-codex"
 model_provider = "datie"
 personality = "pragmatic"
 

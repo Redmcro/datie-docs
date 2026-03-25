@@ -1,5 +1,7 @@
 # 大铁API 使用文档
 
+> ⭐ **本站推荐使用 [Droid](config-droid.md) 客户端！**
+
 谢谢大家支持~
 
 <a class="register-btn" href="https://ai.datie.lol" target="_blank">👉 点击前往 ai.datie.lol 注册账号</a>
