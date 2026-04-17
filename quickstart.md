@@ -1,6 +1,6 @@
 # 快速开始
 
-> ⭐ **本站推荐使用 [Droid](config-droid.md) 客户端！**
+> ⭐ **本站推荐使用 [Claude Code](config-claude.md) 客户端！**
 
 ## 1. 注册账号
 
@@ -40,11 +40,5 @@
 | API Key | 你刚刚复制的 Key |
 
 接下来选择你的客户端进行配置：
-- [Droid 配置](config-droid.md)
 - [Claude Code 配置](config-claude.md)
 - [Codex 配置](config-codex.md)
-- [OpenClaw 配置](config-openclaw.md)
-
----
-
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 遇到问题？加入QQ群</a>

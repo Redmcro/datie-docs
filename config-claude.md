@@ -10,7 +10,7 @@
 npm install -g @anthropic-ai/claude-code
 ```
 
-## 第二步：配置 settings.json（推荐）
+## 第二步：配置 settings.json
 
 ### 配置文件位置
 
@@ -26,55 +26,14 @@ npm install -g @anthropic-ai/claude-code
 ```json
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "替换为你的API Key",
     "ANTHROPIC_BASE_URL": "https://ai.datie.lol",
-    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
-  },
-  "permissions": {
-    "allow": [],
-    "deny": [],
-    "model": "claude-opus-4-6",
-    "effortLevel": "high"
+    "ANTHROPIC_AUTH_TOKEN": "替换为你的API Key",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
   }
 }
 ```
 
 ### VSCode 插件用户
 
-额外创建 `~/.claude/config.json`：
-
-```json
-{
-  "primaryApiKey": "替换为你的API Key"
-}
-```
-
-## 第三步：环境变量方式（可选）
-
-> 💡 如果已经配了 `settings.json`，可以跳过这步
-
-**Windows（PowerShell 管理员，永久生效）：**
-
-```powershell
-[System.Environment]::SetEnvironmentVariable('ANTHROPIC_BASE_URL', 'https://ai.datie.lol', 'User')
-[System.Environment]::SetEnvironmentVariable('ANTHROPIC_AUTH_TOKEN', '替换为你的API Key', 'User')
-```
-
-**macOS（永久生效）：**
-
-```bash
-echo 'export ANTHROPIC_BASE_URL="https://ai.datie.lol"' >> ~/.zshrc
-echo 'export ANTHROPIC_AUTH_TOKEN="替换为你的API Key"' >> ~/.zshrc
-source ~/.zshrc
-```
-
-## 第四步：启动 Claude Code
-
-```bash
-cd 你的项目目录
-claude
-```
-
----
-
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 遇到问题？加入QQ群</a>
+在 VSCode 扩展市场搜索并安装 `Claude Code for VSCode`，配置同上。

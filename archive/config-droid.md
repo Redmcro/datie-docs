@@ -120,7 +120,3 @@ droid
 | `/new` | 新建一个会话 |
 
 > 💡 常用 `/new` 开新会话！尽量几个问题内完成一个任务，省额度省钱~
-
----
-
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 遇到问题？加入QQ群</a>

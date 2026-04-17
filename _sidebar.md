@@ -4,7 +4,5 @@
   - [常见问题 FAQ](faq.md)
 
 - 客户端配置指南
-  - [Droid 配置](config-droid.md)
   - [Claude Code 配置](config-claude.md)
   - [Codex 配置](config-codex.md)
-  - [OpenClaw 配置](config-openclaw.md)

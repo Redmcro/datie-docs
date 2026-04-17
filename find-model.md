@@ -13,7 +13,3 @@
 - 点击卡片右上角的 **复制按钮** 即可复制模型名称，直接粘贴到客户端配置中使用
 
 > 💡 复制的模型名称就是配置文件中 `model` 字段需要填写的值
-
----
-
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 遇到问题？加入QQ群</a>

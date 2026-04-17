@@ -122,6 +122,3 @@ cp ~/.codex/config.toml.bak ~/.codex/config.toml
 - `key` 登录：只切 `config.toml` 通常不影响； 不行的话可执行 `codex logout`重头来过。
 - 账号登录：只切 `config.toml` 一般无影响。
 
----
-
-<a class="qq-btn" href="https://qm.qq.com/q/ThgG2Q7eMu" target="_blank">💬 遇到问题？加入QQ群</a>
