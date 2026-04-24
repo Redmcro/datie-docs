@@ -1,27 +1,25 @@
 # Claude Code 配置指南
 
-## 第一步：安装 Claude Code
+## 1. 安装 Claude Code
 
 官网：[claude.ai/download](https://claude.ai/download)
-
-**Windows / macOS：**
 
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
-## 第二步：配置 settings.json
-
-### 配置文件位置
+## 2. 配置文件位置
 
 | 系统 | 配置文件路径 |
 |------|------------|
 | Windows | `C:\Users\<用户名>\.claude\settings.json` |
 | macOS | `~/.claude/settings.json` |
 
-> 💡 没有 `.claude` 目录就手动创建一下
+> 如果没有这些文件或目录，就自己创建。
 
-创建或编辑 `settings.json`，内容如下：
+## 3. 写入配置（`settings.json`）
+
+打开 `settings.json`，写入下面内容：
 
 ```json
 {
@@ -34,6 +32,8 @@ npm install -g @anthropic-ai/claude-code
 }
 ```
 
-### VSCode 插件用户
+## 4. 重启 Claude Code
 
-在 VSCode 扩展市场搜索并安装 `Claude Code for VSCode`，配置同上。
+保存文件后，重启 Claude Code 即可生效。
+
+如果使用 VSCode 插件，在 VSCode 扩展市场搜索并安装 `Claude Code for VSCode`，配置同上。
