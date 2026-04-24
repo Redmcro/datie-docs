@@ -12,7 +12,6 @@
 
 - [快速开始](quickstart.md) — 5 分钟上手
 - [找模型](find-model.md) — 查看可用模型
-- [常见问题](faq.md) — FAQ
 
 ## 客户端配置
 
